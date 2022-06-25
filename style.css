@@ -75,9 +75,6 @@ section > div{
     border-radius: 50%;
     margin-top: -80px;
 }
-.presentation{
-    border-bottom: 2px dashed #ccc;
-}
 .contact-flex{
     display: flex;
     flex-flow: row wrap;
@@ -196,3 +193,49 @@ section > div{
     border-radius: 50%;
     border: 1px solid #4B8;
 }
+
+/*EFFET*/
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+
+  .snowflake {
+    position: fixed;
+    background-color: rgb(208, 114, 0);
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+
+/*EFFET2*/
+.snip1374 {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 255px;
+    max-width: 315px;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+  .snip1374 img {
+    max-width: 100%;
+    vertical-align: top;
+    -webkit-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+  .snip1374:hover img,
+  .snip1374.hover img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+/*EFFET3*/
+  
